@@ -5,9 +5,9 @@ import plotly.express as px
 import os
 
 # --- CONFIG ---
-SUPABASE_URL = "https://watlewvfnqltujhkzfzd.supabase.co/"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndhdGxld3ZmbnFsdHVqaGt6ZnpkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgyNTg2NTEsImV4cCI6MjA2MzgzNDY1MX0.j1MmQ2xJTkUEnW1dMX0r17BiI3OuiPvc0Tyyr1uPsQg"
-TABLE_NAME = "table_coinbase"  # Replace with the actual name
+SUPABASE_URL = "supabase_url"
+SUPABASE_KEY = "supabase_key"
+TABLE_NAME = "table_name"  # Replace with the actual name
 
 # --- INIT SUPABASE ---
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
